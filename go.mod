@@ -1,6 +1,9 @@
+// Deprecated: This module has moved to github.com/happy-sdk/lib/taskrunner. module github.com/happy-sdk/taskrunner
 module github.com/happy-sdk/taskrunner
 
 go 1.24.0
+
+retract v0.7.0 // Deprecated: Use github.com/happy-sdk/lib/taskrunner instead.
 
 require (
 	github.com/charmbracelet/bubbles v0.21.0
